@@ -1,6 +1,6 @@
 cask "iconic" do
   version "1.0.0"
-  sha256 "d53a8f983241c864c97e720e85035fa42650a91cec0e71da0ba3f33186bdfc35"
+  sha256 "dbca8e1f3968f02cad3fb3b322c6807e03ce5976e61f872ce030eb2981127d59"
 
   url "https://github.com/Ahmet-Dedeler/Iconic/releases/download/v#{version}/Iconic.dmg",
       verified: "github.com/Ahmet-Dedeler/Iconic/"
