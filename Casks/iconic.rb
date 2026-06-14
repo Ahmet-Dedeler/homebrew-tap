@@ -1,6 +1,6 @@
 cask "iconic" do
-  version "1.0.1"
-  sha256 "c7bcb85e6b0aedfcee41467753c394a9dd2ac013c9c67058dec9964ca2e4cdf9"
+  version "1.4.5"
+  sha256 "8c9f9acd63d3ae7745389d06b949d1be4401697495b8f318d7639094497f8aed"
 
   url "https://icons.ahmetdedeler.com/download/Iconic-#{version}.dmg",
       verified: "icons.ahmetdedeler.com/"
