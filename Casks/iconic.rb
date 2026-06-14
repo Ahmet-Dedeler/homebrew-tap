@@ -2,15 +2,15 @@ cask "iconic" do
   version "1.0.1"
   sha256 "c7bcb85e6b0aedfcee41467753c394a9dd2ac013c9c67058dec9964ca2e4cdf9"
 
-  url "https://github.com/Ahmet-Dedeler/Iconic/releases/download/v#{version}/Iconic.dmg",
-      verified: "github.com/Ahmet-Dedeler/Iconic/"
+  url "https://icons.ahmetdedeler.com/download/Iconic-#{version}.dmg",
+      verified: "icons.ahmetdedeler.com/"
   name "Iconic"
   desc "Customize app icons"
-  homepage "https://github.com/Ahmet-Dedeler/Iconic"
+  homepage "https://icons.ahmetdedeler.com"
 
   livecheck do
-    url :url
-    strategy :github_latest
+    url "https://icons.ahmetdedeler.com/appcast.xml"
+    strategy :sparkle
   end
 
   auto_updates true
