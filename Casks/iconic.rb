@@ -6,7 +6,7 @@ cask "iconic" do
       verified: "icons.ahmetdedeler.com/"
   name "Iconic"
   desc "Customize app icons"
-  homepage "https://icons.ahmetdedeler.com"
+  homepage "https://icons.ahmetdedeler.com/"
 
   livecheck do
     url "https://icons.ahmetdedeler.com/appcast.xml"
