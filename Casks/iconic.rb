@@ -4,7 +4,7 @@ cask "iconic" do
 
   url "https://icons.ahmetdedeler.com/download/Iconic-#{version}.dmg"
   name "Iconic"
-  desc "Restyle Mac app and folder icons in one click"
+  desc "Restyle app and folder icons in one click"
   homepage "https://icons.ahmetdedeler.com/"
 
   livecheck do
