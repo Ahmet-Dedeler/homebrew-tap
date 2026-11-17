@@ -1,11 +1,10 @@
 cask "iconic" do
-  version "1.4.5"
-  sha256 "0fc3106b75daf8dcc0ce48e938b1980a23b23924853d3907aca984ddf325e875"
+  version "1.4.9"
+  sha256 "fc7f99b9c3b9ce1e2a32d02fd211b6b4d283db2b7b555aac27c554f92ba5af7e"
 
-  url "https://icons.ahmetdedeler.com/download/Iconic-#{version}.dmg",
-      verified: "icons.ahmetdedeler.com/"
+  url "https://icons.ahmetdedeler.com/download/Iconic-#{version}.dmg"
   name "Iconic"
-  desc "Customize app icons"
+  desc "Restyle Mac app and folder icons in one click"
   homepage "https://icons.ahmetdedeler.com/"
 
   livecheck do
